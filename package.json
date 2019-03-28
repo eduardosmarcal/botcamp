@@ -1,7 +1,7 @@
 {
   "name": "BOTcamp",
   "version": "1.0.0",
-  "description": "Projeto do BOTcamp da Impulso Network",
+  "description": "Projeto do BotCamp da Impulso Network",
   "main": "index.js",
   "author": "Eduardo Sorókin",
   "license": "MPL-2.0"
