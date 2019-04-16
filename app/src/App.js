@@ -7,7 +7,7 @@ class App extends Component {
   render() {
     return [
       <ImgBotcamp/>,
-      <BtnBotcamp/>
+      <BtnBotcamp content="Entrar"/>
     ];
   }
 }
