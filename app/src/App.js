@@ -1,14 +1,26 @@
 import React, { Component } from "react";
-import ImgBotcamp from "./components/ImgBotcamp";
+
+import LoginWrapper from "./components/LoginWrapper";
+import ImgBotcamp from "./components/LogoBotcamp";
 import BtnBotcamp from "./components/BtnBotcamp";
-import "./App.css"
+
+import "./styles/reset.css";
 
 class App extends Component {
   render() {
+<<<<<<< HEAD
     return [
       <ImgBotcamp/>,
       <BtnBotcamp content="Entrar"/>
     ];
+=======
+    return (
+      <LoginWrapper>
+        <ImgBotcamp/>
+        <BtnBotcamp>Entrar</BtnBotcamp>
+      </LoginWrapper>
+    );
+>>>>>>> master
   }
 }
 
