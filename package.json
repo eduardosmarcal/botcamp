@@ -4,5 +4,9 @@
   "description": "Projeto do BotCamp da Impulso Network",
   "main": "index.js",
   "author": "Eduardo Sorókin",
-  "license": "MPL-2.0"
+  "license": "MPL-2.0",
+  "dependencies": {
+    "normalize.css": "^8.0.1",
+    "styled-components": "^4.2.0"
+  }
 }

@@ -1,13 +1,11 @@
 import styled from "styled-components";
 
-import logoBotcamp from "./../../img/botcamp.svg";
+import logoBotcamp from "./../../img/botcamp.png";
 
 const LogoBotcamp = styled.img.attrs({
-  src: `${logoBotcamp}`,
+  src: logoBotcamp,
   alt: "Logo do BotCamp"
 })`
-  display: block;
-  margin: 0 auto;
   width: 248px;
 `;
 
