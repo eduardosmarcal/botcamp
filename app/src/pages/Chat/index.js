@@ -5,7 +5,7 @@ import HeaderWrapper from "../../components/HeaderWrapper";
 import LogoBotcamp from "../../components/LogoBotcamp";
 import LogoutBotcamp from "../../components/LogoutBotcamp";
 import MessageWrapper from "../../components/MessageWrapper";
-import UserMessage from "../../components/UserMessage";
+import MessageBotcamp from "../../components/MessageBotcamp";
 import InputMessage from "../../components/InputMessage";
 
 const Chat = () => (
@@ -17,7 +17,7 @@ const Chat = () => (
       </Link>
     </HeaderWrapper>
     <MessageWrapper>
-      <UserMessage/>
+      <MessageBotcamp>!cpf</MessageBotcamp>
     </MessageWrapper>
     <InputMessage/>
   </>
